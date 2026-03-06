@@ -1,0 +1,104 @@
+# 🚲 Projet : Infrastructure Réseau & Services Intranet - Biclou
+
+## 📝 Introduction
+[cite_start]Ce projet, réalisé sous **Cisco Packet Tracer**, simule l'interconnexion réseau entre deux entreprises : **Taco** (secteur historique) et **Biclou** (location de vélos)[cite: 1]. [cite_start]L'objectif est de déployer une infrastructure complète incluant le routage, l'adressage dynamique (DHCP), la résolution de noms (DNS) et l'hébergement d'un portail intranet métier[cite: 1].
+
+---
+
+## 📌 Sommaire
+1. [Mission 1 : Connexion initiale et limites matérielles](#mission-1)
+2. [Mission 2 : Partage des locaux et Adressage Statique](#mission-2)
+3. [Mission 3 : Mobilité et Automatisation (DHCP)](#mission-3)
+4. [Mission 4 : Services DNS et Hébergement Web](#mission-4)
+5. [Validation et Analyse Simulation](#validation)
+6. [Conclusion et Compétences](#conclusion)
+
+---
+
+<a name="mission-1"></a>
+## 1. 🛠 Mission 1 : Connexion initiale et limites matérielles
+[cite_start]**Objectif :** Relier un ordinateur au serveur de fichiers de Taco[cite: 1].
+
+* [cite_start]**Réalisation :** Connexion du PC0 au serveur[cite: 1].
+* [cite_start]**Problème rencontré :** Une erreur apparaît lors de l'ajout d'un second PC car le serveur n'a plus de port disponible[cite: 1].
+* [cite_start]**Solution :** Utilisation d'un **Switch** pour étendre les capacités de connexion du réseau[cite: 1].
+
+> [!IMPORTANT]
+> **PHOTO À AJOUTER :** Capture d'écran de ton premier schéma avec le Switch ou de l'erreur "No available port".
+
+---
+
+<a name="mission-2"></a>
+## 2. 🏢 Mission 2 : Partage des locaux et Adressage Statique
+[cite_start]**Objectif :** Interconnecter les réseaux de Taco (`192.168.0.0`) et Biclou (`192.168.100.0`)[cite: 1].
+
+* [cite_start]**Segmentation :** Les deux entreprises partagent des données via un routeur Cisco 2911[cite: 1].
+* **Configuration Biclou :** Attribution d'IP statiques pour les équipements fixes :
+    * [cite_start]**PC1 :** `192.168.100.1` [cite: 1]
+    * [cite_start]**PC2 :** `192.168.100.2` [cite: 1]
+    * [cite_start]**Serveur 1 :** `192.168.100.250` [cite: 1]
+* [cite_start]**Passerelle (Gateway) :** Configuration de l'IP `192.168.100.254` sur le routeur et les postes[cite: 1].
+* [cite_start]**Performance :** Activation des ports **Gigabit** via la console (CLI) pour optimiser le débit[cite: 1].
+
+> [!TIP]
+> **PHOTO À AJOUTER :** Capture de la configuration IP statique de PC1 (montrant la Gateway et le DNS).
+
+---
+
+<a name="mission-3"></a>
+## 3. 📱 Mission 3 : Mobilité et Automatisation (DHCP)
+[cite_start]**Objectif :** Configurer l'accès réseau pour deux commerciaux itinérants (Laptops)[cite: 1].
+
+* [cite_start]**Service DHCP :** Configuré et activé sur le **Serveur 1**[cite: 1].
+* [cite_start]**Plage d'adresses :** Distribution automatique de `192.168.100.10` à `192.168.100.50`[cite: 1].
+* [cite_start]**Paramètres transmis :** Gateway (`192.168.100.254`) et serveur DNS (`192.168.100.250`)[cite: 1].
+
+> [!NOTE]
+> [cite_start]La validation a été faite par un **ping** réussi depuis les ordinateurs portables vers le serveur de Taco[cite: 1].
+
+---
+
+<a name="mission-4"></a>
+## 4. 🌐 Mission 4 : Services DNS et Hébergement Web
+[cite_start]**Objectif :** Créer un site intranet accessible via le nom de domaine `intranet.biclou.fr`[cite: 1].
+
+* [cite_start]**Annuaire DNS :** Création des enregistrements de type A (PC1, PC2, Serveur 1 et le nom de domaine)[cite: 1].
+* [cite_start]**Serveur Web (HTTP) :** Activation du service sur le Serveur 1 et développement de la page d'accueil personnalisée dans `index.html`[cite: 1].
+
+
+
+> [!WARNING]
+> [cite_start]**Point de vigilance :** Il est impératif d'activer le service DNS (**On**) pour que la résolution de nom fonctionne dans le navigateur[cite: 1].
+
+---
+
+<a name="validation"></a>
+## 🔍 Validation et Analyse Simulation
+
+### Résolution de noms et Connectivité
+[cite_start]Le succès du test est confirmé par un `ping intranet.biclou.fr` qui résout correctement l'IP `192.168.100.250`[cite: 1].
+
+> [!IMPORTANT]
+> **PHOTO À AJOUTER :** Capture du terminal (CMD) montrant le succès du Ping vers le nom de domaine.
+
+### Analyse des protocoles
+[cite_start]Le **Mode Simulation** a permis d'observer l'ordre des échanges réseau[cite: 1]:
+1.  [cite_start]**DNS (UDP 53) :** Requête du PC pour obtenir l'IP du site[cite: 1].
+2.  [cite_start]**ICMP :** Envoi du paquet de test (Ping) une fois l'IP connue[cite: 1].
+3.  [cite_start]**HTTP :** Chargement de la page web dans le navigateur[cite: 1].
+
+> [!TIP]
+> **PHOTO À AJOUTER :** Capture du navigateur Web affichant ton portail "BICLOU : ESPACE SALARIÉS".
+
+---
+
+<a name="conclusion"></a>
+## 🎓 Conclusion et Compétences
+Ce projet a permis de valider les compétences suivantes :
+* [cite_start]**Administration de services :** Mise en œuvre de serveurs DHCP, DNS et Web[cite: 1].
+* [cite_start]**Routage :** Configuration de passerelles par défaut et interconnexion de réseaux[cite: 1].
+* [cite_start]**Dépannage :** Identification des limites matérielles et erreurs de configuration (cache DNS, services éteints)[cite: 1].
+
+---
+[cite_start]**Étudiant :** Clara (SIO 27) [cite: 1]
+**Outils :** Cisco Packet Tracer
