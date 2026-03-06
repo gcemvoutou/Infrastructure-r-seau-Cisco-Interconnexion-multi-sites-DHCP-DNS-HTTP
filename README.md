@@ -23,9 +23,9 @@ Ce projet, réalisé avec **Cisco Packet Tracer**, simule l'interconnexion rése
 L'étape initiale consistait à relier un ordinateur au serveur de fichiers de Taco. 
 
 * **Problématique :** Une erreur est apparue lors de l'ajout d'un second PC car le serveur ne possédait qu'une seule interface réseau.
+ ![Schéma Final](2.png)
 * **Solution :** Ajout d'un switch supplémentaire pour étendre la capacité de connexion du réseau.
 
-**EMPLACEMENT PHOTO :** (Capture de l'erreur de port ou du switch ajouté)
 
 ---
 
