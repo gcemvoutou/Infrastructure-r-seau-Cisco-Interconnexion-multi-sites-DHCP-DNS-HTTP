@@ -166,7 +166,7 @@ Dans `Services → DHCP` sur Server1 :
 
 Les PC fixes conservent leur IP statique. Les deux nouveaux laptops sont configurés en DHCP → ils obtiennent automatiquement une adresse dans la plage `192.168.100.10 – 192.168.100.50`.
 
-<!-- 📷 INSÉRER ICI : capture IP Configuration laptop (DHCP → 192.168.100.12 par exemple) -->
+![IP Configuration laptop avec DHCP ](10.png)
 
 **Étape 4 – Test de connectivité**
 
