@@ -74,7 +74,7 @@ Le mode simulation a permis d'observer la chronologie réelle des échanges:
 2. **Protocole ICMP :** Vérification de la connectivité via le Ping.
 3. **Protocole HTTP :** Accès final au site via le navigateur web.
 
-**EMPLACEMENT PHOTO :** (Capture du navigateur affichant le site intranet de Biclou) 
+![Le site intranet de Biclou](17.png)
 
 ---
 
