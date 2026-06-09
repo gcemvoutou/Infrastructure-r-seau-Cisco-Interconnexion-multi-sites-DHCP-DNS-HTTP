@@ -74,7 +74,7 @@ ping 192.168.0.1  →  réussi ✅
 
 Message Packet Tracer : `No available port` (plus de ports libres sur Switch3).
 
-<!-- 📷 INSÉRER ICI : capture erreur "No Available Ports" -->
+![Erreur No Available Ports](2.png)
 
 ### Solution appliquée
 
