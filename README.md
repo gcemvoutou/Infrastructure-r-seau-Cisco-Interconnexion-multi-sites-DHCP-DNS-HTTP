@@ -59,8 +59,8 @@ Mise en place d'un accès réseau pour deux commerciaux itinérants équipés d'
 Déploiement d'un site intranet pour répertorier les pièces détachées de Biclou.
 
 **Annuaire DNS :** Liaison du nom de domaine `intranet.biclou.fr` à l'adresse IP du Serveur 1 (`192.168.100.250`).
-**Serveur Web :** Activation du service HTTP et développement de la page d'accueil personnalisée "BICLOU : ESPACE SALARIÉS".
 
+**Serveur Web :** Activation du service HTTP et développement de la page d'accueil personnalisée "BICLOU : ESPACE SALARIÉS".
 
 
 ---
