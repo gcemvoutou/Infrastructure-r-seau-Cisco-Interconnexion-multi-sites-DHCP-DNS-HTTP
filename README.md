@@ -37,7 +37,7 @@ Cette mission visait à interconnecter Biclou et Taco pour permettre le partage 
 * **Optimisation :** Activation des ports **Gigabit** sur les interfaces du routeur pour assurer un débit performant entre les deux sites.
 * **Routage :** Configuration des passerelles par défaut pour permettre la communication inter-réseaux.
 
- ![Schéma Final](6.png)
+ ![Config IP Statique](6.png)
 
 ---
 
@@ -49,7 +49,7 @@ Mise en place d'un accès réseau pour deux commerciaux itinérants équipés d'
 * **Plage d'adresses :** Configuration du pool de `192.168.100.10` à `192.168.100.50`.
 * **Validation :** Test de connectivité (Ping) réussi depuis les laptops vers le serveur de Taco.
 
-**EMPLACEMENT PHOTO :** (Capture du service DHCP activé sur le serveur)
+![Service DHCP activé sur le serveur](C9.png).
 
 ---
 
