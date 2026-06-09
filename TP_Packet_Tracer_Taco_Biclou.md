@@ -219,8 +219,7 @@ Ping par nom de domaine :
 ```
 ping intranet.biclou.fr  →  résolution correcte ✅  (192.168.100.250)
 ```
-
-<!-- 📷 INSÉRER ICI : capture ping intranet.biclou.fr (0% loss) -->
+![Ping intranet.biclou.fr](14.png)
 
 Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.
 
