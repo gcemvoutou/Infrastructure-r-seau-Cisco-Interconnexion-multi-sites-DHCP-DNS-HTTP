@@ -2,7 +2,6 @@
 ### Interconnexion des réseaux Taco et Biclou
 
 | | |
-|---|---|
 | **Prénom** | Clara |
 | **Classe** | BTS SIO 1ere année |
 | **Logiciel** | Cisco Packet Tracer |
