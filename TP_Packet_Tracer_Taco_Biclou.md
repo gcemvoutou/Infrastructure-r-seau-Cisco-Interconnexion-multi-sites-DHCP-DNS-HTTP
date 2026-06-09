@@ -231,7 +231,7 @@ Accès au site intranet depuis un navigateur Packet Tracer :
 http://intranet.biclou.fr  →  page web affichée ✅
 ```
 
-<!-- 📷 INSÉRER ICI : capture navigateur Packet Tracer (portail BICLOU – Espace Salariés) -->
+![Portail BICLOU – Espace Salariés](17.png)
 
 > Le portail intranet a été développé dans l'onglet `index.html` du service HTTP de Server1.
 
