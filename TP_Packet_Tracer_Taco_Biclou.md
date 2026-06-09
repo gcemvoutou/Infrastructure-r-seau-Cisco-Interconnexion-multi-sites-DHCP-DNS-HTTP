@@ -202,7 +202,7 @@ Mettre en place un serveur DNS sur Server1 et héberger un site intranet accessi
 
 - Activation du service HTTP (et HTTPS) pour héberger la page intranet
 
-<!-- 📷 INSÉRER ICI : capture interface HTTP (On + liste des fichiers index.html etc.) -->
+![Interface HTTP](13.png)
 
 **Étape 2 – Configuration DNS statique sur PC1 et PC2**
 
