@@ -50,6 +50,7 @@ Mise en place d'un accès réseau pour deux commerciaux itinérants équipés d'
 * **Validation :** Test de connectivité (Ping) réussi depuis les laptops vers le serveur de Taco.
 
 ![Service DHCP activé sur le serveur](C9.png).
+![Ping réussi](5.png)
 
 ---
 
@@ -73,7 +74,7 @@ Le mode simulation a permis d'observer la chronologie réelle des échanges:
 2. **Protocole ICMP :** Vérification de la connectivité via le Ping.
 3. **Protocole HTTP :** Accès final au site via le navigateur web.
 
-**EMPLACEMENT PHOTO :** (Capture du navigateur affichant le site intranet de Biclou)
+**EMPLACEMENT PHOTO :** (Capture du navigateur affichant le site intranet de Biclou) 
 
 ---
 
