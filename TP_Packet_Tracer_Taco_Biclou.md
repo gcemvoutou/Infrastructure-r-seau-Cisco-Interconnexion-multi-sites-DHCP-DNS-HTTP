@@ -198,7 +198,7 @@ Mettre en place un serveur DNS sur Server1 et héberger un site intranet accessi
 - Activation du service DNS sur Server1 (`192.168.100.250`)
 - Ajout des enregistrements de type A listés ci-dessus
 
-<!-- 📷 INSÉRER ICI : capture interface DNS Packet Tracer (liste des A Records) -->
+![Interface DNS ](12.png)
 
 - Activation du service HTTP (et HTTPS) pour héberger la page intranet
 
