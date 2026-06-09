@@ -116,7 +116,7 @@ Permettre le partage de données entre Taco et l'entreprise Biclou via le cœur 
 
 Attribution des adresses statiques sur PC1 et PC2 avec passerelle `192.168.100.254` (interface du routeur côté réseau `192.168.100.0`).
 
-<!-- 📷 INSÉRER ICI : capture IP Configuration PC2 (192.168.100.2) -->
+![Configuration PC2](16.png) -->
 
 **Étape 3 – Vérification de la connectivité inter-sites**
 
