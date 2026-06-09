@@ -37,7 +37,7 @@ Cette mission visait à interconnecter Biclou et Taco pour permettre le partage 
 * **Optimisation :** Activation des ports **Gigabit** sur les interfaces du routeur pour assurer un débit performant entre les deux sites.
 * **Routage :** Configuration des passerelles par défaut pour permettre la communication inter-réseaux.
 
-**EMPLACEMENT PHOTO :** (Capture de la configuration IP statique d'un PC)
+**EMPLACEMENT PHOTO :**  ![Schéma Final](6.png)
 
 ---
 
