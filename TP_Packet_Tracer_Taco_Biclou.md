@@ -54,7 +54,7 @@ Au départ, très peu d'équipements étaient connectés sur Switch3 (situation 
 
 Connexion de PC0 au serveur avec un câble droit.
 
-<!-- 📷 INSÉRER ICI : capture câblage PC0 ↔ Server0 -->
+![Cablage PC0](3.png)
 
 **Étape 2 – Configuration IP statique sur PC0**
 
