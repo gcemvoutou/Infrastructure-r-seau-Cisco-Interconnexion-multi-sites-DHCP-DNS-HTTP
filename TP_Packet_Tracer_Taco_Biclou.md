@@ -116,19 +116,17 @@ Permettre le partage de données entre Taco et l'entreprise Biclou via le cœur 
 
 Attribution des adresses statiques sur PC1 et PC2 avec passerelle `192.168.100.254` (interface du routeur côté réseau `192.168.100.0`).
 
-![Configuration PC2](16.png) -->
-
 **Étape 3 – Vérification de la connectivité inter-sites**
 
 Ping d'un PC Biclou vers un PC Taco :
 
-<!-- 📷 INSÉRER ICI : capture ping Biclou → Taco (0% loss) -->
+![Configuration PC2](16.png) 
 
 **Étape 4 – Configuration des ports Gigabit**
 
 Activation des ports FastEthernet sur les switches concernés et vérification de la stabilité après modification.
 
-<!-- 📷 INSÉRER ICI : capture show interface (FastEthernet0/1 et 0/2 Up) -->
+![Show interface](7.png)
 
 ---
 
