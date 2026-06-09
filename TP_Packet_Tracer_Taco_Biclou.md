@@ -223,7 +223,7 @@ ping intranet.biclou.fr  →  résolution correcte ✅  (192.168.100.250)
 
 Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.
 
-<!-- 📷 INSÉRER ICI : capture mode simulation (paquets DNS puis ICMP) -->
+![Mode simulation (paquets DNS puis ICMP)](15.png)
 
 Accès au site intranet depuis un navigateur Packet Tracer :
 
