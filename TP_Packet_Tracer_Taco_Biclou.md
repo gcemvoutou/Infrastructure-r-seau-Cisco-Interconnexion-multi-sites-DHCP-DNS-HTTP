@@ -85,7 +85,7 @@ Ajout d'un switch supplémentaire dans la zone Taco :
 3. Configuration IP statique sur le deuxième PC : `192.168.0.2 /24`
 4. Tests finaux : ping PC ↔ serveur et PC ↔ PC → **réussis ✅**
 
-<!-- 📷 INSÉRER ICI : capture résultat ping PC ↔ PC (0% loss) -->
+![Ping PC](5.png)
 
 ---
 
