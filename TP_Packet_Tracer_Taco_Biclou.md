@@ -34,7 +34,7 @@ Ce TP simule l'interconnexion de deux entreprises via un cœur de réseau :
 
 La topologie évolue au fil des missions avec l'ajout de matériel, la configuration de services (DHCP, DNS, HTTP) et la vérification de la connectivité inter-entreprises.
 
-<!-- 📷 INSÉRER ICI : capture topologie globale Packet Tracer -->
+![Schéma Final](0.png)
 
 ---
 
