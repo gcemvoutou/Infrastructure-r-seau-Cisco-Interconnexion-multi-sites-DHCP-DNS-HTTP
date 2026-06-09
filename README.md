@@ -6,6 +6,7 @@ Ce dépôt contient l'étude et la mise en œuvre d'une infrastructure réseau c
 ## 📝 Introduction
 Ce projet, réalisé avec **Cisco Packet Tracer**, simule l'interconnexion réseau entre deux entreprises : **Taco** (zone orange) et **Biclou** (zone bleue). L'objectif est de déployer une infrastructure complète incluant le routage via un cœur de réseau (Cisco 2911), l'adressage dynamique, la résolution de noms et l'hébergement web.
 
+ ![Schéma Final](3.png)
 ---
 
 ## 📌 Sommaire
