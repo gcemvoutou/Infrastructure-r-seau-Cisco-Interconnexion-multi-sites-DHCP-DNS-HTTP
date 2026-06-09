@@ -172,7 +172,7 @@ Les PC fixes conservent leur IP statique. Les deux nouveaux laptops sont configu
 
 Ping du Laptop1 vers le serveur DHCP (`192.168.100.250`) → **réussi ✅**
 
-<!-- 📷 INSÉRER ICI : capture ping laptop → 192.168.100.250 (0% loss) -->
+![ping laptop → 192.168.100.250](11.png)
 
 ---
 
