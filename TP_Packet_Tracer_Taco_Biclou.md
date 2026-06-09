@@ -160,7 +160,7 @@ Dans `Services → DHCP` sur Server1 :
 | Passerelle par défaut | `192.168.100.254` |
 | Serveur DNS | Ajouté en mission 5 |
 
-<!-- 📷 INSÉRER ICI : capture interface DHCP Packet Tracer (serverPool configuré) -->
+![interface DHCP configuré](C9.png)
 
 **Étape 3 – Activation DHCP sur les laptops**
 
