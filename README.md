@@ -54,7 +54,7 @@ Au départ, très peu d'équipements étaient connectés sur Switch3 (situation 
 
 Connexion de PC0 au serveur avec un câble droit.
 
-![Cablage PC0](3.png)
+![Cablage PC0](images/3.png)
 
 **Étape 2 – Configuration IP statique sur PC0**
 
@@ -74,7 +74,7 @@ ping 192.168.0.1  →  réussi ✅
 
 Message Packet Tracer : `No available port` (plus de ports libres sur Switch3).
 
-![Erreur No Available Ports](2.png)
+![Erreur No Available Ports](images/2.png)
 
 ### Solution appliquée
 
@@ -85,7 +85,7 @@ Ajout d'un switch supplémentaire dans la zone Taco :
 3. Configuration IP statique sur le deuxième PC : `192.168.0.2 /24`
 4. Tests finaux : ping PC ↔ serveur et PC ↔ PC → **réussis ✅**
 
-![Ping PC](5.png)
+![Ping PC](images/5.png)
 
 ---
 
@@ -120,13 +120,13 @@ Attribution des adresses statiques sur PC1 et PC2 avec passerelle `192.168.100.2
 
 Ping d'un PC Biclou vers un PC Taco :
 
-![Configuration PC2](16.png) 
+![Configuration PC2](images/16.png) 
 
 **Étape 4 – Configuration des ports Gigabit**
 
 Activation des ports FastEthernet sur les switches concernés et vérification de la stabilité après modification.
 
-![Show interface](7.png)
+![Show interface](images/7.png)
 
 ---
 
@@ -160,19 +160,19 @@ Dans `Services → DHCP` sur Server1 :
 | Passerelle par défaut | `192.168.100.254` |
 | Serveur DNS | Ajouté en mission 5 |
 
-![interface DHCP configuré](C9.png)
+![interface DHCP configuré](images/C9.png)
 
 **Étape 3 – Activation DHCP sur les laptops**
 
 Les PC fixes conservent leur IP statique. Les deux nouveaux laptops sont configurés en DHCP → ils obtiennent automatiquement une adresse dans la plage `192.168.100.10 – 192.168.100.50`.
 
-![IP Configuration laptop avec DHCP ](10.png)
+![IP Configuration laptop avec DHCP ](images/10.png)
 
 **Étape 4 – Test de connectivité**
 
 Ping du Laptop1 vers le serveur DHCP (`192.168.100.250`) → **réussi ✅**
 
-![ping laptop → 192.168.100.250](11.png)
+![ping laptop → 192.168.100.250](images/11.png)
 
 ---
 
@@ -198,11 +198,11 @@ Mettre en place un serveur DNS sur Server1 et héberger un site intranet accessi
 - Activation du service DNS sur Server1 (`192.168.100.250`)
 - Ajout des enregistrements de type A listés ci-dessus
 
-![Interface DNS ](12.png)
+![Interface DNS ](images/12.png)
 
 - Activation du service HTTP (et HTTPS) pour héberger la page intranet
 
-![Interface HTTP](13.png)
+![Interface HTTP](images/13.png)
 
 **Étape 2 – Configuration DNS statique sur PC1 et PC2**
 
@@ -219,11 +219,11 @@ Ping par nom de domaine :
 ```
 ping intranet.biclou.fr  →  résolution correcte ✅  (192.168.100.250)
 ```
-![Ping intranet.biclou.fr](14.png)
+![Ping intranet.biclou.fr](images/14.png)
 
 Analyse en mode simulation : observation des échanges DNS (requête + réponse) puis ICMP.
 
-![Mode simulation (paquets DNS puis ICMP)](15.png)
+![Mode simulation (paquets DNS puis ICMP)](images/15.png)
 
 Accès au site intranet depuis un navigateur Packet Tracer :
 
@@ -231,7 +231,7 @@ Accès au site intranet depuis un navigateur Packet Tracer :
 http://intranet.biclou.fr  →  page web affichée ✅
 ```
 
-![Portail BICLOU – Espace Salariés](17.png)
+![Portail BICLOU – Espace Salariés](images/17.png)
 
 > Le portail intranet a été développé dans l'onglet `index.html` du service HTTP de Server1.
 
