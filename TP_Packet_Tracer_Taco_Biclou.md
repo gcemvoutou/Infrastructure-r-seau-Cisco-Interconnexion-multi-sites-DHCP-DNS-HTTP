@@ -3,8 +3,8 @@
 
 | | |
 |---|---|
-| **Nom** | Clara |
-| **Classe** | SIO 27 |
+| **Prénom** | Clara |
+| **Classe** | BTS SIO 1ere année |
 | **Logiciel** | Cisco Packet Tracer |
 
 **Objectif :** Mettre en place, faire évoluer et sécuriser un réseau inter-entreprises avec partage de ressources, adressage dynamique, résolution de noms et hébergement web.
