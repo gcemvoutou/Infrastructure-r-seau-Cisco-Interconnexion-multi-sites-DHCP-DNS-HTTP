@@ -5,7 +5,7 @@
 
 ## 📋 Description
 
-Conception et déploiement en autonomie d'une infrastructure réseau complète sous **Cisco Packet Tracer**, simulant l'interconnexion de deux entreprises fictives via un cœur de réseau Cisco.
+Conception et déploiement d'une infrastructure réseau complète sous **Cisco Packet Tracer**, simulant l'interconnexion de deux entreprises fictives via un cœur de réseau Cisco.
 
 Le projet couvre l'adressage IP, le routage inter-sites, ainsi que la mise en place de services réseau critiques : DHCP, DNS et hébergement d'un site intranet.
 
