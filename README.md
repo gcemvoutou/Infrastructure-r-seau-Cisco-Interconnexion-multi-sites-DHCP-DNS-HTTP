@@ -16,8 +16,8 @@
 1. [Introduction et topologie du réseau](#1-introduction-et-topologie-du-réseau)
 2. [Première mission – Connexion au serveur de fichiers (Taco)](#2-première-mission--connexion-au-serveur-de-fichiers-taco)
 3. [Deuxième mission – Partage des locaux Taco / Biclou + activation ports Gigabit](#3-deuxième-mission--partage-des-locaux-taco--biclou--activation-des-ports-gigabit)
-4. [Quatrième mission – Commerciaux itinérants + serveur DHCP chez Biclou](#4-quatrième-mission--commerciaux-itinérants--serveur-dhcp-chez-biclou)
-5. [Cinquième mission – Serveur DNS + site intranet chez Biclou](#5-cinquième-mission--serveur-dns--site-intranet-intranетbiclоufr)
+4. [Troisième mission – Commerciaux itinérants + serveur DHCP chez Biclou](#4-troisième-mission--commerciaux-itinérants--serveur-dhcp-chez-biclou)
+5. [Quatrième mission – Serveur DNS + site intranet chez Biclou](#5-quatrième-mission--serveur-dns--site-intranet-intranetbicloufr)
 6. [Conclusion – Difficultés rencontrées et compétences acquises](#6-conclusion--difficultés-rencontrées-et-compétences-acquises)
 
 ---
@@ -130,7 +130,7 @@ Activation des ports FastEthernet sur les switches concernés et vérification d
 
 ---
 
-## 4. Quatrième mission – Commerciaux itinérants + serveur DHCP chez Biclou
+## 4. Troisième mission – Commerciaux itinérants + serveur DHCP chez Biclou
 
 ### Objectif
 
@@ -176,7 +176,7 @@ Ping du Laptop1 vers le serveur DHCP (`192.168.100.250`) → **réussi ✅**
 
 ---
 
-## 5. Cinquième mission – Serveur DNS + site intranet (intranet.biclou.fr)
+## 5. Quatrième mission – Serveur DNS + site intranet (intranet.biclou.fr)
 
 ### Objectif
 
@@ -239,13 +239,12 @@ http://intranet.biclou.fr  →  page web affichée ✅
 
 ## 6. Conclusion – Difficultés rencontrées et compétences acquises
 
-### Difficultés principales
-
+ 
 | Difficulté | Solution appliquée |
-|------------|-------------------|
+|---|---|
 | Ports switch saturés (`No available port`) | Ajout d'un switch supplémentaire |
 | DNS absent du pool DHCP → laptops ne résolvent pas les noms | Ajout du serveur DNS dans la configuration du pool DHCP |
-| Vérification longue des câblages, VLANs et routage inter-sites | Méthodologie ping étape par étape (local → passerelle → inter-site) |
+| Vérification du routage inter-sites | Méthodologie ping étape par étape : local → passerelle → inter-site |
 
 ### Compétences acquises
 
@@ -256,5 +255,3 @@ http://intranet.biclou.fr  →  page web affichée ✅
 - Développement d'une page HTML pour un portail intranet
 
 ---
-
-*Compte rendu rédigé par Clara – Classe SIO 27*
