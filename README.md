@@ -1,7 +1,6 @@
 # 🌐 Infrastructure Réseau Cisco – Interconnexion Multi-Sites
 
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
-![Statut](https://img.shields.io/badge/Statut-Terminé%20—%20Documenté-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Scolaire-blue)
 
 ## 📋 Description
