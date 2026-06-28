@@ -52,7 +52,7 @@ Au départ, très peu d'équipements étaient connectés sur Switch3 (situation 
 
 **Étape 1 – Connexion du premier PC**
 
-Connexion de PC0 au serveur avec un câble droit.
+Connexion de PC0 au serveur avec un câble croisé.
 
 ![Cablage PC0](images/3.png)
 
