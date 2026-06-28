@@ -40,4 +40,4 @@ Le projet couvre l'adressage IP, le routage inter-sites, ainsi que la mise en pl
 
 ## 📄 Documentation technique
 
-👉 [Voir la procédure complète](./PROCEDURE.md)
+👉 [Voir la procédure complète](https://github.com/gcemvoutou/Infrastructure-r-seau-Cisco-Interconnexion-multi-sites-DHCP-DNS-HTTP/blob/main/PROCEDURE.md)
